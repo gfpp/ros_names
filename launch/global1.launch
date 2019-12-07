@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="var" value="50" />
+  <node pkg="test_names" type="global" name="global" output="screen" />
+</launch>
+
