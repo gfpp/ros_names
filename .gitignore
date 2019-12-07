@@ -1,0 +1,26 @@
+# Latex files
+*.tex.sw
+*.aux
+*.log
+*.toc
+*.bbl
+*.blg
+*.tmp
+*.dvi
+*.ind
+*.lof
+*.lot
+*.nav
+*.snm
+*.out
+
+# Programming
+*.o
+*.pyc
+
+# Text editors
+*~
+*.swp
+
+# Doxygen
+
