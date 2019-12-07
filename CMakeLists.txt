@@ -129,6 +129,7 @@ include_directories(
 ## Declare a C++ executable
 # add_executable(ros_name_node src/ros_name_node.cpp)
 add_executable(global src/global.cpp)
+add_executable(relative src/relative.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
@@ -139,6 +140,7 @@ add_executable(global src/global.cpp)
 #   ${catkin_LIBRARIES}
 # )
 target_link_libraries(global ${catkin_LIBRARIES})
+target_link_libraries(relative ${catkin_LIBRARIES})
 
 #############
 ## Install ##
