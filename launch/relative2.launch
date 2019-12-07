@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="test_names" type="relative" name="relative" output="screen">
+    <param name="var" value="50" />
+  </node>
+</launch>
+

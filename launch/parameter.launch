@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="param" default="10" />
+
+  <param name="var" value="$(arg param)" />
+</launch>
+
